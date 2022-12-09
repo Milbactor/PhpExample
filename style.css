@@ -1,0 +1,80 @@
+p {
+  clear: both;
+}
+
+/* Style of the data lists. */
+dl {
+  border-bottom: 1px solid #000000;
+  float: left;
+  margin: 0em 0em 2em 2em;
+  padding: 0em;
+  width: 40em;
+}
+dt {
+  border-top: 1px solid #000000;
+  clear: left;
+  float: left;
+  font-weight: bold;
+  margin: 0em;
+  padding: 0.5em;
+  width: 14em;
+}
+dd {
+  border-top: 1px solid #000000;
+  float: left;
+  margin: 0em;
+  padding: 0.5em;
+  width: 24em; 
+}
+
+/* Style of the user overview table. */
+table {
+  width: 100%;
+}
+th {
+  text-align: left;
+}
+thead th {
+  border-bottom: 1px solid black;
+}
+tfoot th {
+  border-top: 1px solid black;
+}
+tr:nth-child(even) td {
+  background-color: #dddddd;
+}
+
+/* Style of the error/success status messages. */
+div {
+  border: 0.2em solid black;
+  clear: both;
+  margin: 0.5em;
+  padding: 0.5em;
+}
+.error {
+  border-color: red;
+}
+.success {
+  border-color: blue;
+}
+
+/* Style of text field 'hints' or 'placeholders'. */
+.watermark {
+  color: #777777;
+  text-align: center;
+}
+
+
+#add_schedule {
+  margin: 1em;
+  text-align: center;
+}
+
+/* Style of internal navigation links. */
+.disabled {
+  color: #999999;
+}
+.nav {
+  color: #000000;
+  text-decoration: none;
+}
